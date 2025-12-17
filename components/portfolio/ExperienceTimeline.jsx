@@ -129,7 +129,7 @@ export default function ExperienceTimeline() {
 
           {/* Resume Download Button */}
           <motion.a
-            href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694091b5713defc97d0c310e/e06a8bdb2_Shyam_Kannan_SWE_Resume.pdf"
+            href="/Shyam_Kannan_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.9 }}
