@@ -44,7 +44,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16"
+          className="flex flex-col items-center justify-center gap-8"
         >
           {/* Profile Image */}
           <motion.div
@@ -70,7 +70,7 @@ export default function HeroSection() {
           </motion.div>
 
           {/* Text Content */}
-          <div className="text-center lg:text-left flex-1 max-w-3xl">
+          <div className="text-center flex-1 max-w-3xl">
             <motion.div
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -123,7 +123,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2, duration: 0.8 }}
-            className="flex flex-col sm:flex-row items-center lg:items-start lg:justify-start justify-center gap-4 mb-12"
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <a
               href="#contact"
@@ -146,7 +146,7 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.4, duration: 0.8 }}
-            className="flex items-center lg:justify-start justify-center gap-6"
+            className="flex items-center justify-center gap-6"
           >
             {[
               { icon: Github, href: 'https://github.com/shyam-kannan', label: 'GitHub' },
